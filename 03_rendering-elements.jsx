@@ -6,7 +6,7 @@ const element = <h1>Hello World</h1>;
 function tick() {
     const element1 = (
         <div>
-            <h1>Hello World</h1>
+            {element}
             <h2>It is {new Date().toLocaleString()}</h2>
         </div>
     );
